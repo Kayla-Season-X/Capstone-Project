@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Tuffy:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="body">
+        <header id="header">
+            <h1>👾🤖Character Explorer 🐱‍🏍🐱‍👤</h1>
+            <p> (Anime, Marvel, DC) </p>
+            <button id="theme">Toggle Theme</button>
+            <br>
+            <nav>
+                <input type="text" placeholder="Search character..." id="searchInput">
+                <button>Search</button>
+            </nav>
+        </header>
+        <div id="container">
+        <div id="sub-container">
+            <p>Search History</p>
+            <p></p>
+            <button id="clearButton">Clear Search</button>
+            <br>
+        </div>
+        <div id="sub-container-2">
+        <main  id="display" class="content">
+
+        </main>
+        </div>
+    </div>
+        <footer id="footer">
+            <h2>Sumbit Character</h2>
+            <section class="createCharacter">
+                <form id="form">
+                    <div>
+                        <label for="cname">Character Name:</label><br>
+                        <input type="text" id="cname" name="cname" placeholder="Name..."><br>
+                        <label for="show">What is the charcter in (Game, Movies, Shows, Book)</label><br>
+                        <input type="text" id="show" name="show" placeholder="Show..."><br>
+                        <label for="book">Where is the character orginally from (Anime, Book, Manga, Comic)</label><br>
+                        <input type="text" id="book" name="book" placeholder="Book..."><br>
+                        <label for="year">What year was the character created (Start-End)</label><br>
+                        <input type="text" id="year" name="year" placeholder="(YYYY-YYYY)"><br>
+                        <label for="occupation">What is the characters occupation</label><br>
+                        <input type="text" id="occupation" name="occupation" placeholder="Occupation..."><br>
+                    </div>
+                    <div>
+                        <label for="gender">What is the characters gender</label><br>
+                        <input type="text" id="gender" name="gender" placeholder="Gender..."><br>
+                        <label for="role">What is the characers role</label><br>
+                        <input type="text" id="role" name="role" placeholder="Role..."><br>
+                        <label for="bio">Write a summary of the character</label><br>
+                        <textarea id="bio" name="bio" placeholder="Bio..."></textarea><br>
+                        <label for="image">Submit a image</label><br>
+                        <input type="file" id="image" name="image"><br>
+                        <input type="submit" value="submit"><br>
+                    </div>
+                </form>
+            </section>
+        </footer>
+        <script src="script.js"></script>
+        <script src="render.js"></script>
+        <script src="timer.js"></script>
+</body>
+</html>
