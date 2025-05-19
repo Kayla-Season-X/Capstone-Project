@@ -3,8 +3,10 @@ This document provides a detailed explanation on The Capstone Project. This webi
 ## Table of Contents
 - [HTML Structure](#html-structure)
     - [Detailed HTML Explanation](#detailed-html-explanation)
+
 -[CSS Styling](#css-styling)
     - [Key CSS Features](#key-css-features)
+
 -[JavaScript Functionality](#javascript-functionality)
     -[Script File](#script-file)
     -[Render File](#render-file)
