@@ -4,13 +4,13 @@ This document provides a detailed explanation on The Capstone Project. This webi
 - [HTML Structure](#html-structure)
     - [Detailed HTML Explanation](#detailed-html-explanation)
 
--[CSS Styling](#css-styling)
+- [CSS Styling](#css-styling)
     - [Key CSS Features](#key-css-features)
 
--[JavaScript Functionality](#javascript-functionality)
-    -[Script File](#script-file)
-    -[Render File](#render-file)
-    -[Timer Script](#timer-script)
+- [JavaScript Functionality](#javascript-functionality)
+    - [Script File](#script-file)
+    - [Render File](#render-file)
+    - [Timer Script](#timer-script)
 
 ## Html Structure
 The HTML Structure defines the user interface of the Capstone Project
